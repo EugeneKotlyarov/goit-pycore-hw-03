@@ -16,3 +16,8 @@ def get_days_from_today(date_from_str: str) -> int:
         print(f'Error in input! Usage: get_days_from_today("YYYY-MM-DD")')
 
     return int((dt.now() - date_from_dt).days)
+
+
+# test
+print(get_days_from_today("2023-10-12"))
+print(get_days_from_today("2024-12-21"))
